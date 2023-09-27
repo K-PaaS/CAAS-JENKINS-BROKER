@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: paas-ta-caas-jenkins-broker
+    name: caas-jenkins-broker
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://<%= link('caas-mariadb-link').instances[0].address %>:<%= link('caas-mariadb-link').p('port') %>/broker?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Seoul&useLegacyDatetimeCode=false

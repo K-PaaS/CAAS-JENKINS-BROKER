@@ -1,6 +1,6 @@
 package model;
 
-import org.openpaas.paasta.caas_jenkins.model.JpaServiceInstance;
+import org.openpaas.caas_jenkins.model.JpaServiceInstance;
 import org.openpaas.servicebroker.model.*;
 
 import java.util.HashMap;

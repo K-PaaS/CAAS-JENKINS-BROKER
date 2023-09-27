@@ -1,6 +1,6 @@
 package model;
 
-import org.openpaas.paasta.caas_jenkins.model.JpaJenkinsInstance;
+import org.openpaas.caas_jenkins.model.JpaJenkinsInstance;
 
 public class JpaJenkinsInstanceModel {
 
